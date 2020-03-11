@@ -7,7 +7,7 @@ EclipseReaderCpp.cpp
  #include "EclipseReader.h"
 using namespace std;
  
-
+<code>
 int main()
 {
 	{
@@ -46,3 +46,5 @@ int main()
 			cout << "This array doesnt exist. False was returned. No exceptions propagate" << std::endl;
 		}
 	}
+
+</code>
