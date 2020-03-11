@@ -4,11 +4,13 @@ The lib allows to read simulation results from visage, eclipse, and intersect in
 
 EclipseReaderCpp.cpp
 
- #include "EclipseReader.h"
-using namespace std;
+
  
 <pre>
 <code>
+#include "EclipseReader.h"
+using namespace std;
+
 int main()
 {
 	{
