@@ -7,6 +7,7 @@ EclipseReaderCpp.cpp
  #include "EclipseReader.h"
 using namespace std;
  
+<pre>
 <code>
 int main()
 {
@@ -48,3 +49,4 @@ int main()
 	}
 
 </code>
+</pre>
