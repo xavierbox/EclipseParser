@@ -6,6 +6,8 @@ EclipseReaderCpp.cpp
 
 for an example of use
 
+<pre>
+<code>
 int main()
 {
 	{
@@ -45,5 +47,6 @@ int main()
 		}
 	}
 
-
+</code>
+</pre>
 
