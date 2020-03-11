@@ -14,7 +14,7 @@ using namespace std;
 int main()
 {
 	{
-//get a list of keywords (similar to Pete's c# code) 
+//get a list of keywords 
 		string file = "D:\\GPMTESTS\\PALEOV3_0.X0000";
 		map<string, KeywordDescription> keywords = EclipseReader::GetKeywords(file);
 
