@@ -16,9 +16,10 @@ int main()
 		string file = "D:\\GPMTESTS\\PALEOV3_0.X0000";
 		map<string, KeywordDescription> keywords = EclipseReader::GetKeywords(file);
 
-//print the found keys 
-		std::for_each(keywords.begin(), keywords.end(), [&](std::pair<string, KeywordDescription> value) 
-			{std::cout << value.second<< std::endl; });
+		for(auto it = keywords.begin(); it!= keywords.end(); it++)
+		{
+			std::cout << keywords[ it->first  ] << std::endl;
+		}
 
 //load one array 
 		std::string key = "TOTSTRXY";

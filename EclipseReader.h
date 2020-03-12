@@ -30,7 +30,7 @@ class
 KeywordDescription
 {
 
-	friend std::ostream& operator<<(ostream &out, const KeywordDescription &item)
+	friend std::ostream& operator<<(ostream &out,  KeywordDescription &item)
 	{
 		out << item.Name << " Type: " << KeywordDescription::GetTypeAsString(item) << " WordSize: " << item.WordSize << " Count: " << item.Size << " ByteLoc: " << item.ByteLocation << std::endl;
 		return out;

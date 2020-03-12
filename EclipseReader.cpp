@@ -71,6 +71,8 @@ map<string, KeywordDescription>  EclipseReader::GetKeywords(string fileToParse)
 				streamoff toSkip(8 + 4 + 8 * ((long)((size - 1) / (1000))) + data_type * size);
 				reader.seekg(toSkip + reader.tellg(), ios::beg);
 				//std::cout << "**"<<key << std::endl;
+				//std::cout << "*****" << map[key.Name] << std::endl;
+
 			}
 			else
 			{
